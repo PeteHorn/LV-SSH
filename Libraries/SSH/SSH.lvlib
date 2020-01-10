@@ -83,6 +83,7 @@
 		<Item Name="Create Stream Reader.vi" Type="VI" URL="../Create Stream Reader.vi"/>
 		<Item Name="Stop SSH Client.vi" Type="VI" URL="../Stop SSH Client.vi"/>
 		<Item Name="Write Cmd and Wait.vi" Type="VI" URL="../Write Cmd and Wait.vi"/>
+		<Item Name="Cont Exec Loop Actions.ctl" Type="VI" URL="../Cont Exec Loop Actions.ctl"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

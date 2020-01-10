@@ -22,7 +22,6 @@
 		<Item Name="SSH Module" Type="Folder">
 			<Item Name="SSH.lvlib" Type="Library" URL="../Libraries/SSH/SSH.lvlib"/>
 		</Item>
-		<Item Name="Cont Exec Loop Actions.ctl" Type="VI" URL="../Libraries/SSH/Cont Exec Loop Actions.ctl"/>
 		<Item Name="Low Level Test.vi" Type="VI" URL="../Low Level Test.vi"/>
 		<Item Name="Renci.SshNet.dll" Type="Document" URL="../Renci.SshNet.dll"/>
 		<Item Name="Response Configuration.ctl" Type="VI" URL="../Libraries/SSH/Response Configuration.ctl"/>
