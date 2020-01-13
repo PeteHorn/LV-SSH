@@ -86,6 +86,7 @@
 		<Item Name="Stop SSH Client.vi" Type="VI" URL="../Stop SSH Client.vi"/>
 		<Item Name="Write Cmd and Wait.vi" Type="VI" URL="../Write Cmd and Wait.vi"/>
 		<Item Name="Read To End.vi" Type="VI" URL="../Read To End.vi"/>
+		<Item Name="Parse Response String.vi" Type="VI" URL="../Parse Response String.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
