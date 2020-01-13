@@ -30,6 +30,8 @@
 			<Item Name="Connection" Type="Folder">
 				<Item Name="Connection Info.ctl" Type="VI" URL="../Connection Info.ctl"/>
 				<Item Name="dotNET references.ctl" Type="VI" URL="../dotNET references.ctl"/>
+				<Item Name="Response Configuration.ctl" Type="VI" URL="../Response Configuration.ctl"/>
+				<Item Name="Return Request Configuration.ctl" Type="VI" URL="../Return Request Configuration.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -83,7 +85,7 @@
 		<Item Name="Create Stream Reader.vi" Type="VI" URL="../Create Stream Reader.vi"/>
 		<Item Name="Stop SSH Client.vi" Type="VI" URL="../Stop SSH Client.vi"/>
 		<Item Name="Write Cmd and Wait.vi" Type="VI" URL="../Write Cmd and Wait.vi"/>
-		<Item Name="Cont Exec Loop Actions.ctl" Type="VI" URL="../Cont Exec Loop Actions.ctl"/>
+		<Item Name="Read To End.vi" Type="VI" URL="../Read To End.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
