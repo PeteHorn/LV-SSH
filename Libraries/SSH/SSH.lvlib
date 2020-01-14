@@ -91,6 +91,7 @@
 		<Item Name="GT 0 and GT limit.vim" Type="VI" URL="../GT 0 and GT limit.vim"/>
 		<Item Name="Trigger Limit Reached.vi" Type="VI" URL="../Trigger Limit Reached.vi"/>
 		<Item Name="Pre SSH Launch Checks.vi" Type="VI" URL="../Pre SSH Launch Checks.vi"/>
+		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
