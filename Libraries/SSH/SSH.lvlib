@@ -109,6 +109,9 @@
 		<Item Name="Get Module Running State.vi" Type="VI" URL="../Get Module Running State.vi"/>
 		<Item Name="Module Running State--enum.ctl" Type="VI" URL="../Module Running State--enum.ctl"/>
 	</Item>
+	<Item Name="Unit Tests" Type="Folder">
+		<Item Name="Return Response Triggers.lvclass" Type="LVClass" URL="../Unit Tests/Return Response Triggers/Return Response Triggers.lvclass"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
