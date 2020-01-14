@@ -87,6 +87,7 @@
 		<Item Name="Write Cmd and Wait.vi" Type="VI" URL="../Write Cmd and Wait.vi"/>
 		<Item Name="Read To End.vi" Type="VI" URL="../Read To End.vi"/>
 		<Item Name="Parse Response String.vi" Type="VI" URL="../Parse Response String.vi"/>
+		<Item Name="Respond.vi" Type="VI" URL="../Respond.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -115,4 +116,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GT 0 and GT limit.vim" Type="VI" URL="../GT 0 and GT limit.vim"/>
+	<Item Name="Character Count Limit Reached.vi" Type="VI" URL="../Character Count Limit Reached.vi"/>
 </Library>
