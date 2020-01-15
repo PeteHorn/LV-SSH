@@ -19,6 +19,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Build Actions" Type="Folder">
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../VI Package/Post-Install Custom Action.vi"/>
+		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="SubVI&apos;s" Type="Folder">
 				<Item Name="Dialog.vi" Type="VI" URL="../Examples/SubVIs/Dialog.vi"/>
