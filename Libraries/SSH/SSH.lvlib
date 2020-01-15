@@ -92,6 +92,8 @@
 		<Item Name="Trigger Limit Reached.vi" Type="VI" URL="../Trigger Limit Reached.vi"/>
 		<Item Name="Pre SSH Launch Checks.vi" Type="VI" URL="../Pre SSH Launch Checks.vi"/>
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
+		<Item Name="Configure Write Command RP Timeout.vi" Type="VI" URL="../Configure Write Command RP Timeout.vi"/>
+		<Item Name="Configure Write Command Msg Timeout.vi" Type="VI" URL="../Configure Write Command Msg Timeout.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
