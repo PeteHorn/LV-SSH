@@ -67,6 +67,7 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Module Names FGV Actions.ctl" Type="VI" URL="../Module Names FGV Actions.ctl"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
