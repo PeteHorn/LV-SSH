@@ -94,6 +94,8 @@
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
 		<Item Name="Configure Write Command RP Timeout.vi" Type="VI" URL="../Configure Write Command RP Timeout.vi"/>
 		<Item Name="Configure Write Command Msg Timeout.vi" Type="VI" URL="../Configure Write Command Msg Timeout.vi"/>
+		<Item Name="Module Name List FGV.vi" Type="VI" URL="../Module Name List FGV.vi"/>
+		<Item Name="Module Name or ID.vi" Type="VI" URL="../Module Name or ID.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

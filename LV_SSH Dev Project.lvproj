@@ -23,6 +23,7 @@
 			<Item Name="SSH.lvlib" Type="Library" URL="../Libraries/SSH/SSH.lvlib"/>
 		</Item>
 		<Item Name="Low Level Test.vi" Type="VI" URL="../Low Level Test.vi"/>
+		<Item Name="Module Names FGV Actions.ctl" Type="VI" URL="../Libraries/SSH/Module Names FGV Actions.ctl"/>
 		<Item Name="Renci.SshNet.dll" Type="Document" URL="../References/Renci.SshNet.dll"/>
 		<Item Name="Test SSH API.vi" Type="VI" URL="../Libraries/SSH/Test SSH API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
