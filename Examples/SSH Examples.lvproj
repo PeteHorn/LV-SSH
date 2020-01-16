@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Command and response.vi" Type="VI" URL="../Command and response.vi"/>
-		<Item Name="SSH.lvlib" Type="Library" URL="../../Libraries/SSH/SSH.lvlib"/>
+		<Item Name="SSH.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI-IES/SSH/Libraries/SSH/SSH.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -70,6 +70,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Renci.SshNet.dll" Type="Document" URL="../../References/Renci.SshNet.dll"/>
+			<Item Name="SSH.lvlib" Type="Library" URL="../../Libraries/SSH/SSH.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
