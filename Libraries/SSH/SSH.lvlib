@@ -119,8 +119,8 @@
 		<Item Name="Get Module Running State.vi" Type="VI" URL="../Get Module Running State.vi"/>
 		<Item Name="Module Running State--enum.ctl" Type="VI" URL="../Module Running State--enum.ctl"/>
 	</Item>
-	<Item Name="Unit Tests" Type="Folder">
-		<Item Name="Return Response Triggers.lvclass" Type="LVClass" URL="../Unit Tests/Return Response Triggers/Return Response Triggers.lvclass"/>
+	<Item Name="Public Test Stubs (do not use)" Type="Folder">
+		<Item Name="UTS - Parse Response String.vi" Type="VI" URL="../UTS - Parse Response String.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

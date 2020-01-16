@@ -19,20 +19,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Build Actions" Type="Folder">
-			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../VI Package/Post-Install Custom Action.vi"/>
-		</Item>
-		<Item Name="Examples" Type="Folder">
-			<Item Name="SubVI&apos;s" Type="Folder">
-				<Item Name="Dialog.vi" Type="VI" URL="../Examples/SubVIs/Dialog.vi"/>
-			</Item>
-			<Item Name="Command and response.vi" Type="VI" URL="../Examples/Command and response.vi"/>
+		<Item Name="Examples" Type="Folder" URL="../Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="SSH Module" Type="Folder">
 			<Item Name="SSH.lvlib" Type="Library" URL="../Libraries/SSH/SSH.lvlib"/>
 		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Return Response Triggers.lvclass" Type="LVClass" URL="../Unit Tests/Return Response Triggers/Return Response Triggers.lvclass"/>
+		</Item>
 		<Item Name="Low Level Test.vi" Type="VI" URL="../Low Level Test.vi"/>
 		<Item Name="Renci.SshNet.dll" Type="Document" URL="../References/Renci.SshNet.dll"/>
+		<Item Name="Template.vi" Type="VI" URL="../Unit Tests/Return Response Triggers/Template.vi"/>
 		<Item Name="Test SSH API.vi" Type="VI" URL="../Libraries/SSH/Test SSH API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -376,7 +374,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Renci.SshNet.dll" Type="Document" URL="../../../../phorn/Documents/LV_SSH/Renci.SshNet.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-15 14:12:35" Modified_Date="2020-01-15 16:04:33" Creator="ukhornp" Comments="" ID="6eb7dc36056ebdacfef8bac9e043ebc1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-15 14:12:35" Modified_Date="2020-01-16 09:10:35" Creator="ukhornp" Comments="" ID="4453994393c3704698016a0fb2d24a4a">
   <Library_General_Settings>
     <Package_File_Name>NI_IES_lib_SSH</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
@@ -23,7 +23,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>Post-Install Custom Action.vi</Post-Install_VI>
+      <Post-Install_VI/>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>Removed unit tests from the deployed package</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -123,9 +123,6 @@
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Libraries/SSH/Unit Tests</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Low Level Test.vi</Path>
       </Exclusions>
       <Exclusions>
@@ -137,9 +134,9 @@
       <Exclusions>
         <Path>VI Package</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
+      <Exclusions>
+        <Path>Unit Tests</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -323,7 +320,7 @@
         <Path>..\Libraries\SSH\Hide Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53255DA966FE2D647139B39A338FB452</GUID>
+      <GUID>50684B3C6C8EE0770E199D6D1AF7444A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
