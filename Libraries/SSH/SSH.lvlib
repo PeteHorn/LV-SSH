@@ -21,6 +21,8 @@
 				<Item Name="Write Command Argument--cluster.ctl" Type="VI" URL="../Write Command Argument--cluster.ctl"/>
 				<Item Name="Set Response Configuration Argument--cluster.ctl" Type="VI" URL="../Set Response Configuration Argument--cluster.ctl"/>
 				<Item Name="Write Command (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Command (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Timeout Argument--cluster.ctl" Type="VI" URL="../Get Timeout Argument--cluster.ctl"/>
+				<Item Name="Get Timeout (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Timeout (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -41,6 +43,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Write Command.vi" Type="VI" URL="../Write Command.vi"/>
 			<Item Name="Set Response Configuration.vi" Type="VI" URL="../Set Response Configuration.vi"/>
+			<Item Name="Get Timeout.vi" Type="VI" URL="../Get Timeout.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -67,6 +70,7 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Calculate Message Timeout.vi" Type="VI" URL="../Calculate Message Timeout.vi"/>
 		<Item Name="Module Names FGV Actions.ctl" Type="VI" URL="../Module Names FGV Actions.ctl"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
@@ -89,12 +93,9 @@
 		<Item Name="Read To End.vi" Type="VI" URL="../Read To End.vi"/>
 		<Item Name="Parse Response String.vi" Type="VI" URL="../Parse Response String.vi"/>
 		<Item Name="Respond.vi" Type="VI" URL="../Respond.vi"/>
-		<Item Name="GT 0 and GT limit.vim" Type="VI" URL="../GT 0 and GT limit.vim"/>
 		<Item Name="Trigger Limit Reached.vi" Type="VI" URL="../Trigger Limit Reached.vi"/>
 		<Item Name="Pre SSH Launch Checks.vi" Type="VI" URL="../Pre SSH Launch Checks.vi"/>
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
-		<Item Name="Configure Write Command RP Timeout.vi" Type="VI" URL="../Configure Write Command RP Timeout.vi"/>
-		<Item Name="Configure Write Command Msg Timeout.vi" Type="VI" URL="../Configure Write Command Msg Timeout.vi"/>
 		<Item Name="Module Name List FGV.vi" Type="VI" URL="../Module Name List FGV.vi"/>
 		<Item Name="Module Name or ID.vi" Type="VI" URL="../Module Name or ID.vi"/>
 	</Item>
@@ -125,4 +126,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Trigger Response Notifier.vi"/>
 </Library>
