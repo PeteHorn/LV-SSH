@@ -31,6 +31,7 @@
 				<Item Name="dotNET references.ctl" Type="VI" URL="../dotNET references.ctl"/>
 				<Item Name="Response Configuration.ctl" Type="VI" URL="../Response Configuration.ctl"/>
 				<Item Name="Return Request Configuration.ctl" Type="VI" URL="../Return Request Configuration.ctl"/>
+				<Item Name="Expected Response String Config.ctl" Type="VI" URL="../Expected Response String Config.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -120,6 +121,7 @@
 	</Item>
 	<Item Name="Public Test Stubs (do not use)" Type="Folder">
 		<Item Name="UTS - Parse Response String.vi" Type="VI" URL="../UTS - Parse Response String.vi"/>
+		<Item Name="UTS - Expected Response Trigger.vi" Type="VI" URL="../UTS - Expected Response Trigger.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
