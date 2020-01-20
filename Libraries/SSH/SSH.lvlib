@@ -19,10 +19,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
 				<Item Name="Write Command Argument--cluster.ctl" Type="VI" URL="../Write Command Argument--cluster.ctl"/>
-				<Item Name="Set Response Configuration Argument--cluster.ctl" Type="VI" URL="../Set Response Configuration Argument--cluster.ctl"/>
 				<Item Name="Write Command (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Command (Reply Payload)--cluster.ctl"/>
-				<Item Name="Get Timeout Argument--cluster.ctl" Type="VI" URL="../Get Timeout Argument--cluster.ctl"/>
-				<Item Name="Get Timeout (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Timeout (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,8 +39,6 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Write Command.vi" Type="VI" URL="../Write Command.vi"/>
-			<Item Name="Set Response Configuration.vi" Type="VI" URL="../Set Response Configuration.vi"/>
-			<Item Name="Get Timeout.vi" Type="VI" URL="../Get Timeout.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -98,6 +93,9 @@
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
 		<Item Name="Module Name List FGV.vi" Type="VI" URL="../Module Name List FGV.vi"/>
 		<Item Name="Module Name or ID.vi" Type="VI" URL="../Module Name or ID.vi"/>
+		<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Trigger Response Notifier.vi"/>
+		<Item Name="Timeout triggered.vi" Type="VI" URL="../Timeout triggered.vi"/>
+		<Item Name="Expected Response trigger.vi" Type="VI" URL="../Expected Response trigger.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -126,5 +124,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Trigger Response Notifier.vi"/>
 </Library>
