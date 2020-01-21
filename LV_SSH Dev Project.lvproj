@@ -381,6 +381,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Set Response Configuration.vi" Type="VI" URL="../Libraries/SSH/Set Response Configuration.vi"/>
+			<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Libraries/SSH/Trigger Response Notifier.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -96,9 +96,10 @@
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
 		<Item Name="Module Name List FGV.vi" Type="VI" URL="../Module Name List FGV.vi"/>
 		<Item Name="Module Name or ID.vi" Type="VI" URL="../Module Name or ID.vi"/>
-		<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Trigger Response Notifier.vi"/>
 		<Item Name="Timeout triggered.vi" Type="VI" URL="../Timeout triggered.vi"/>
 		<Item Name="Expected Response trigger.vi" Type="VI" URL="../Expected Response trigger.vi"/>
+		<Item Name="Conditional String Reverse.vi" Type="VI" URL="../Conditional String Reverse.vi"/>
+		<Item Name="Conditional String Concatenate.vi" Type="VI" URL="../Conditional String Concatenate.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -128,6 +129,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Conditional String Reverse.vi" Type="VI" URL="../Conditional String Reverse.vi"/>
-	<Item Name="Conditional String Concatenate.vi" Type="VI" URL="../Conditional String Concatenate.vi"/>
 </Library>
