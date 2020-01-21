@@ -32,6 +32,8 @@
 				<Item Name="Response Configuration.ctl" Type="VI" URL="../Response Configuration.ctl"/>
 				<Item Name="Return Request Configuration.ctl" Type="VI" URL="../Return Request Configuration.ctl"/>
 				<Item Name="Expected Response String Config.ctl" Type="VI" URL="../Expected Response String Config.ctl"/>
+				<Item Name="Search Start Point.ctl" Type="VI" URL="../Search Start Point.ctl"/>
+				<Item Name="String Match Details.ctl" Type="VI" URL="../String Match Details.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -126,4 +128,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Conditional String Reverse.vi" Type="VI" URL="../Conditional String Reverse.vi"/>
+	<Item Name="Conditional String Concatenate.vi" Type="VI" URL="../Conditional String Concatenate.vi"/>
 </Library>
