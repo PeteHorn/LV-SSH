@@ -32,7 +32,6 @@
 		</Item>
 		<Item Name="Low Level Test.vi" Type="VI" URL="../Low Level Test.vi"/>
 		<Item Name="Renci.SshNet.dll" Type="Document" URL="../References/Renci.SshNet.dll"/>
-		<Item Name="Template.vi" Type="VI" URL="../Unit Tests/Return Response Triggers/Template.vi"/>
 		<Item Name="Test SSH API.vi" Type="VI" URL="../Libraries/SSH/Test SSH API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -381,8 +380,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Set Response Configuration.vi" Type="VI" URL="../Libraries/SSH/Set Response Configuration.vi"/>
-			<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Libraries/SSH/Trigger Response Notifier.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
