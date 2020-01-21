@@ -26,6 +26,7 @@
 			<Item Name="SSH.lvlib" Type="Library" URL="../Libraries/SSH/SSH.lvlib"/>
 		</Item>
 		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Char Count Limit.lvclass" Type="LVClass" URL="../Unit Tests/Character Count Limit/Char Count Limit/Char Count Limit.lvclass"/>
 			<Item Name="Expected Response Trigger test.lvclass" Type="LVClass" URL="../Unit Tests/Expected Response Trigger/Expected Response Trigger test/Expected Response Trigger test.lvclass"/>
 			<Item Name="Return Response Triggers.lvclass" Type="LVClass" URL="../Unit Tests/Return Response Triggers/Return Response Triggers.lvclass"/>
 		</Item>
