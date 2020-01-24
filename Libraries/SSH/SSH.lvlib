@@ -34,6 +34,7 @@
 				<Item Name="Expected Response String Config.ctl" Type="VI" URL="../Expected Response String Config.ctl"/>
 				<Item Name="Search Start Point.ctl" Type="VI" URL="../Search Start Point.ctl"/>
 				<Item Name="String Match Details.ctl" Type="VI" URL="../String Match Details.ctl"/>
+				<Item Name="Character Count Configuration.ctl" Type="VI" URL="../Character Count Configuration.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
