@@ -22,6 +22,14 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Public API" Type="Folder">
+			<Item Name="Change Panel State.vi" Type="VI" URL="../Public API/Change Panel State.vi"/>
+			<Item Name="Panel Actions.ctl" Type="VI" URL="../Public API/Panel Actions.ctl"/>
+			<Item Name="Response Configuration.ctl" Type="VI" URL="../Public API/Response Configuration.ctl"/>
+			<Item Name="Start SSH Module.vi" Type="VI" URL="../Public API/Start SSH Module.vi"/>
+			<Item Name="Stop SSH Module.vi" Type="VI" URL="../Public API/Stop SSH Module.vi"/>
+			<Item Name="Write SSH Command.vi" Type="VI" URL="../Public API/Write SSH Command.vi"/>
+		</Item>
 		<Item Name="SSH Module" Type="Folder">
 			<Item Name="SSH.lvlib" Type="Library" URL="../Libraries/SSH/SSH.lvlib"/>
 		</Item>
