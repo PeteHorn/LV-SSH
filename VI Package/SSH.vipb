@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-15 14:12:35" Modified_Date="2020-01-16 09:56:52" Creator="ukhornp" Comments="" ID="3c14f61789e4f5001d18162fc3808848">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-15 14:12:35" Modified_Date="2020-02-05 13:30:44" Creator="ukhornp" Comments="" ID="be03d5d160a2b33c84d70eb809a8a05c">
   <Library_General_Settings>
     <Package_File_Name>NI_IES_lib_SSH</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
@@ -16,9 +16,7 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies>
-      <Additional_External_Dependencies>delacor_lib_dqmh_toolkit &gt;=4.2.1.46</Additional_External_Dependencies>
-    </Package_Dependencies>
+    <Package_Dependencies/>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -120,6 +118,15 @@
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
+        <Path>Temp PPL</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Unit Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>VI Package</Path>
+      </Exclusions>
+      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
@@ -130,12 +137,6 @@
       </Exclusions>
       <Exclusions>
         <Path>README.md</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>VI Package</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Unit Tests</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -225,7 +226,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Start Module.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Start SSH Module.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -233,13 +234,13 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Start Module.vi</Path>
+        <Path>..\Public API\Start SSH Module.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Synchronize Module Events.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Stop SSH Module.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -247,27 +248,13 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Synchronize Module Events.vi</Path>
+        <Path>..\Public API\Stop SSH Module.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stop Module.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Stop Module.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Command.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Write SSH Command.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -275,27 +262,13 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Write Command.vi</Path>
+        <Path>..\Public API\Write SSH Command.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Response Configuration.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Set Response Configuration.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Show Panel.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Change Panel State.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -303,24 +276,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Show Panel.vi</Path>
+        <Path>..\Public API\Change Panel State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Hide Panel.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Libraries\SSH\Hide Panel.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>EE1041734132C1BB6262CCAB12FE1414</GUID>
+      <GUID>DD9F5E8352EEA72B6936F4151713D740</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

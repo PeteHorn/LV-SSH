@@ -32,6 +32,9 @@
 				<Item Name="Response Configuration.ctl" Type="VI" URL="../Response Configuration.ctl"/>
 				<Item Name="Return Request Configuration.ctl" Type="VI" URL="../Return Request Configuration.ctl"/>
 				<Item Name="Expected Response String Config.ctl" Type="VI" URL="../Expected Response String Config.ctl"/>
+				<Item Name="Search Start Point.ctl" Type="VI" URL="../Search Start Point.ctl"/>
+				<Item Name="String Match Details.ctl" Type="VI" URL="../String Match Details.ctl"/>
+				<Item Name="Character Count Configuration.ctl" Type="VI" URL="../Character Count Configuration.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -94,12 +97,21 @@
 		<Item Name="Valid Response Configuration.vi" Type="VI" URL="../Valid Response Configuration.vi"/>
 		<Item Name="Module Name List FGV.vi" Type="VI" URL="../Module Name List FGV.vi"/>
 		<Item Name="Module Name or ID.vi" Type="VI" URL="../Module Name or ID.vi"/>
-		<Item Name="Trigger Response Notifier.vi" Type="VI" URL="../Trigger Response Notifier.vi"/>
+		<Item Name="Character Count Limit Exceeded.vi" Type="VI" URL="../Character Count Limit Exceeded.vi"/>
 		<Item Name="Timeout triggered.vi" Type="VI" URL="../Timeout triggered.vi"/>
 		<Item Name="Expected Response trigger.vi" Type="VI" URL="../Expected Response trigger.vi"/>
+		<Item Name="Conditional String Reverse.vi" Type="VI" URL="../Conditional String Reverse.vi"/>
+		<Item Name="Conditional String Concatenate.vi" Type="VI" URL="../Conditional String Concatenate.vi"/>
+		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Semaphore" Type="Folder">
+			<Item Name="Obtain Module Semaphore.vi" Type="VI" URL="../Obtain Module Semaphore.vi"/>
+			<Item Name="Acquire Module Semaphore.vi" Type="VI" URL="../Acquire Module Semaphore.vi"/>
+			<Item Name="Release Module Semaphore.vi" Type="VI" URL="../Release Module Semaphore.vi"/>
+			<Item Name="Destroy Module Semaphore Reference.vi" Type="VI" URL="../Destroy Module Semaphore Reference.vi"/>
+		</Item>
 		<Item Name="Destroy Sync Refnums.vi" Type="VI" URL="../Destroy Sync Refnums.vi"/>
 		<Item Name="Get Sync Refnums.vi" Type="VI" URL="../Get Sync Refnums.vi"/>
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
@@ -113,6 +125,7 @@
 			<Item Name="Update Select Module Ring.vi" Type="VI" URL="../Update Select Module Ring.vi"/>
 			<Item Name="Addressed to This Module.vi" Type="VI" URL="../Addressed to This Module.vi"/>
 		</Item>
+		<Item Name="VI Reference Management.lvlib" Type="Library" URL="../VI Reference Management/VI Reference Management.lvlib"/>
 		<Item Name="Is Safe to Destroy Refnums.vi" Type="VI" URL="../Is Safe to Destroy Refnums.vi"/>
 		<Item Name="Clone Registration.lvlib" Type="Library" URL="../Clone Registration/Clone Registration.lvlib"/>
 		<Item Name="Test Clone Registration API.vi" Type="VI" URL="../Clone Registration/Test Clone Registration API.vi"/>
@@ -122,6 +135,7 @@
 	<Item Name="Public Test Stubs (do not use)" Type="Folder">
 		<Item Name="UTS - Parse Response String.vi" Type="VI" URL="../UTS - Parse Response String.vi"/>
 		<Item Name="UTS - Expected Response Trigger.vi" Type="VI" URL="../UTS - Expected Response Trigger.vi"/>
+		<Item Name="UTS - Character Count Limit Exceeded.vi" Type="VI" URL="../UTS - Character Count Limit Exceeded.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

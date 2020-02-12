@@ -14,6 +14,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Action--enum.ctl" Type="VI" URL="../Action--enum.ctl"/>
 		<Item Name="Clone Registration AE.vi" Type="VI" URL="../Clone Registration AE.vi"/>
+		<Item Name="Send Last Clone Instance Notification.vi" Type="VI" URL="../Send Last Clone Instance Notification.vi"/>
 	</Item>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
 	<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
@@ -21,4 +22,7 @@
 	<Item Name="List Instances.vi" Type="VI" URL="../List Instances.vi"/>
 	<Item Name="Is Empty.vi" Type="VI" URL="../Is Empty.vi"/>
 	<Item Name="Is First.vi" Type="VI" URL="../Is First.vi"/>
+	<Item Name="Obtain Last Clone Instance Notifier.vi" Type="VI" URL="../Obtain Last Clone Instance Notifier.vi"/>
+	<Item Name="Wait on Last Clone Instance Notification.vi" Type="VI" URL="../Wait on Last Clone Instance Notification.vi"/>
+	<Item Name="Destroy Last Clone Instance Notifier.vi" Type="VI" URL="../Destroy Last Clone Instance Notifier.vi"/>
 </Library>
